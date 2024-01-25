@@ -2,11 +2,14 @@
   "name": "package-json-template",
   "version": "1.0.0",
   "description": "**Vamos utilizar esse repositório para as práticas da aula!**",
-  "main": "index.js",
+  "main": "pratica1",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "pratica1" : "node ./index.js"
+    "start": "error",
+    "pratica1": "node ./pratica1",
+    "pratica2": "node ./pratica2 Brazil",
+    "pratica3": "node ./pratica3"
+
   },
   "repository": {
     "type": "git",

@@ -1,7 +1,9 @@
-const iterate = ( numero) => {
-    for(let i = 0; i < numero; i++){
+
+const lendoTodosOsPaises = (nume) =>{
+    for( let i = 0; i < Number(nume); i++){
         console.log(i+1)
     }
+
 }
 
-iterate(process.argv[2])
+lendoTodosOsPaises((process.argv[2]))
